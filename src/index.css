@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.border-gradient {
+  border-width: 2px; /* Adjust border width as needed */
+  border-style: solid;
+  border-image: linear-gradient(
+    to right,
+    #3490dc,
+    #38a169
+  ); /* Use gradient colors */
+}
+
+.child-container {
+  border-radius: calc(3.5rem - 1px);
+}
